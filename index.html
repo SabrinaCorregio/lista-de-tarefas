@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas tarefas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Quicksand:wght@300..700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <h1>Minhas tarefas</h1>
+    </header>
+    <form>
+        <h3>Agora está fácil organizar o seu dia, vamos lá?</h3>
+        <input type="date" id="data-da-tarefa" required placeholder="Selecione a data">
+        <input type="text" id="descreva-a-tarefa" placeholder="Descreva a tarefa">
+        <button type="button">Adicionar</button>
+    </form>
+    <div class="ul-container" id="lista">
+        <ul>
+            
+        </ul>
+    </div>
+    <footer>
+        <p>
+            &copy; Sabrina Corregio 2024 - Todos os direitos reservados.
+        </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
